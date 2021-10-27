@@ -10,9 +10,9 @@ main()
 
 _are_all_players_in_time_bomb_volume_qol( e_volume )
 {
-	n_required_players = 2;
+	n_required_players = 1;
 	a_players = get_players();
-	if (getPlayers().size <= 2)
+	if (getPlayers().size = 1)
 	{
 		n_required_players = a_players.size;
 	}
@@ -44,7 +44,7 @@ buried_targets()
 	for(;;)
 	{
 		flag_wait("sq_ows_start");
-		if (getPlayers().size <= 2)
+		if (getPlayers().size = 1)
 		{
 			flag_set("sq_ows_success");
 			break;
